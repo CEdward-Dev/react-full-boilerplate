@@ -1,0 +1,17 @@
+@media(max-width: $desktop-breakpoint) {
+    .DateInput {
+        &--open-down{
+            font-size: $s-font;
+            padding: 8px 2px;
+            width: 90px;
+        }
+    }
+}
+
+.DateRangePickerInput {
+    &__arrow {
+        & svg {
+            width: 12px;
+        }
+    }
+}

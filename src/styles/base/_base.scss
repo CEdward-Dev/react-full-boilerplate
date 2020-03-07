@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: white;
+    color: $dark-text;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-size: $m-size;
+    
+}
+
+button {
+    cursor: pointer;
+
+    &:disabled{
+        cursor: default;
+    }
+}
+
+.is-active {
+    font-weight: bold;
+}
